@@ -1,0 +1,96 @@
+.container__aboutUs {
+}
+
+.container__details {
+  /* height: 400px; */
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 40px;
+}
+
+.details__image {
+  flex: 0.3;
+  margin: auto;
+  padding: 20px;
+  font-size: 25px;
+}
+
+.details__text {
+  flex: 0.7;
+  padding: 10px;
+}
+
+.container__image {
+  height: 500px;
+  width: 100%;
+  margin: 0 auto;
+  margin-bottom: 100px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  /* vertical-align: middle;
+  max-width: 100%;
+  height: auto; */
+  background-image: url("https://cdn3.invitereferrals.com/blog/wp-content/uploads/2020/01/14090711/Banner-3.png");
+  /* background-image: url("https://www.veracode.com/sites/default/files/styles/webp_large/public/developer-guide-blog-2.webp?itok=FFkU3ejZ"); */
+}
+
+.container__3 {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 40px;
+}
+
+.row1 {
+  display: flex;
+}
+
+.row2 {
+  display: flex;
+}
+
+.row3 {
+  display: flex;
+}
+.quote {
+  flex: 0.5;
+  padding: 70px 0;
+  text-align: center;
+  /* background-color: lightgrey; */
+  height: 400px;
+}
+.text {
+  font-size: 29px;
+  font-weight: bold;
+  margin-top: 80px;
+}
+.image {
+  flex: 0.5;
+}
+
+.img1 {
+  height: 400px;
+  width: 100%;
+  /* padding: 20px; */
+  /* margin: auto; */
+}
+.me-text {
+  margin-top: 20px;
+  font-size: 22px;
+}
+
+@media screen and (max-width: 800px) {
+  .row1 {
+    flex-direction: column;
+  }
+  .row2 {
+    flex-direction: column;
+  }
+  .row3 {
+    flex-direction: column;
+  }
+  .img1 {
+    height: 200px;
+    width: 300px;
+  }
+}

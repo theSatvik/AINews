@@ -1,0 +1,38 @@
+.sidebarChat {
+  display: flex;
+  padding: 10px;
+  cursor: pointer;
+  border-bottom: 1px solid #f6f6f6;
+  align-items: center;
+  width: 100%;
+  font-family: "Rubik", sans-serif;
+}
+
+.sidebarChat :hover {
+  color: #404843;
+}
+
+.sidebarChat__info > h2 {
+  font-size: 16px;
+  margin-bottom: 8px;
+  text-decoration: none;
+}
+
+.sidebarChat__info {
+  margin-left: 15px;
+  /* text-decoration: none; */
+}
+
+.sidebar__links {
+  text-decoration: none;
+  color: black;
+}
+
+@media screen and (max-width: 600px) {
+  .sidebarChat > h2 {
+    font-size: 15px;
+  }
+  .sidebarChat {
+    align-items: center;
+  }
+}

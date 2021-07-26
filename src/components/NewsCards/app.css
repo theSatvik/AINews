@@ -1,0 +1,51 @@
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 5vh;
+  background-color: rgb(25, 118, 210);
+  color: black;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.navLinks {
+  width: 53%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+.MuiAppBar-colorPrimary{
+    color: #fff;
+    background-color: #404843 !important;
+}
+
+.Links {
+  text-decoration: none;
+  color: black;
+}
+
+li ul li {
+  list-style: none;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+ul li ul {
+  display: none;
+}
+
+ul li:hover ul {
+  display: block;
+}
+
+/* 
+.alanBtn-root{
+    display: none;
+} */
+/* 
+:root {
+  filter: invert(1) hue-rotate(180deg);
+} */
