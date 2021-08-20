@@ -13,7 +13,7 @@ import Sidebar from "./components/NewsCards/Chat/Sidebar";
 
 const alanKey =
   "f6d001c923ec7f29a67c89b5dd359c752e956eca572e1d8b807a3e2338fdd0dc/stage";
-  
+
 function App() {
   const [newsArticels, setNewsArticles] = useState([]);
   const [activeArticle, setActiveArticle] = useState(-1);

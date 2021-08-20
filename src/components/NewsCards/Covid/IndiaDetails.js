@@ -14,7 +14,7 @@ class IndiaDetails extends React.Component {
   };
 
   async componentDidMount() {
-    const sad = await axios.get("https://api.covid19india.org/data.json");
+    const sad = await axios.get("https://data.covid19india.org/data.json");
     // console.log(sad);
     this.setState({ indstate: sad.data.statewise });
     const newRes = await axios.get("https://api.covid19api.com/summary");
